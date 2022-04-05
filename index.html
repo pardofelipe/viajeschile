@@ -12,6 +12,9 @@
   <!--style agregado-->
     <link href="assets/css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bcffd1b8ab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <title>Viajes Chile | Fpardo</title>
   </head>
   <body>
@@ -27,22 +30,22 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="color:#fff;">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Inicio</a>
+                      <a class="nav-link smooth-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#somos">Somos</a>
+                      <a class="nav-link smooth-link" href="#somos">Somos</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#destacados">Destacados</a>
+                      <a class="nav-link smooth-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contacto">Contacto</a>
+                      <a class="nav-link smooth-link" href="#contacto">Contacto</a>
                     </li>
                   </ul>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="assets/img/carousel1.jpg" alt="slide1">
@@ -63,26 +66,118 @@
         </div>
       </header>
       <main class="container container-sm pb-sm-2 pt-sm-3 pd-md-5 pb-lg-4">
-        <!--sección inicio-->
-        <section id="inicio">
-          <h1>Introduccion a GIT</h1>
-          <h4>test</h4>
-        </section>
         <!--sección somos-->
         <section id="somos">
-          <h1>Introduccion a GIT</h1>
-          <h4>test</h4>
+          <div class="row mb-5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h4 class="titulos text-center">QUIENES SOMOS</h4>
+            </div>
+          </div>
+          <!--parrafos-->
+          <div class="row mt-5 mb-5">
+            <div class="col-lg-4 text-justify">
+              <span class="badge bg-info d-flex justify-content-center mb-3"><i class="fa-solid fa-plane"></i></span>
+              <p class="parrafo text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-lg-4 text-justify">
+              <p class="parrafo text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <span class="badge bg-info d-flex justify-content-center mb-3"><i class="fa-solid fa-mountain"></i></span>
+            </div>
+            <div class="col-lg-4 text-justify">
+              <span class="badge bg-info d-flex justify-content-center mb-3"><i class="fa-solid fa-map-location-dot"></i></span>
+              <p class="parrafo text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+
         </section>
         <!--sección destacados-->
         <section id="destacados">
-
+          <div class="row mt-5 mb-5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h4 class="titulos text-center">DESTACADOS</h4>
+            </div>
+          </div>
+          <div class="row mt-5 mb-5">
+            <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+              <div class="card bg-dark" style="width: 18rem;">
+                <img src="assets/img/card1.jpg" class="card-img-top vh-50" alt="...">
+                <div class="card-body text-light">
+                  <h5 class="card-title">Lorem ipsum dolor</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+              <div class="card bg-dark" style="width: 18rem;">
+                <img src="assets/img/card2.jpg" class="card-img-top  vh-50" alt="...">
+                <div class="card-body text-light">
+                  <h5 class="card-title">Consectetur adipiscing</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+              <div class="card bg-dark" style="width: 18rem;">
+                <img src="assets/img/card3.jpg" class="card-img-top  vh-50" alt="...">
+                <div class="card-body  text-light">
+                  <h5 class="card-title">Sed do eiusmod tempor</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 d-flex">
+              <div class="card bg-dark" style="width: 18rem;">
+                <img src="assets/img/card4.jpg" class="card-img-top  min-vh-50" alt="...">
+                <div class="card-body  text-light">
+                  <h5 class="card-title">Tempor incididunt</h5>
+                  <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+        </div>
         </section>
         <!--sección contacto-->
         <section id="contacto">
-
+          <div class="row mt-5 mb-5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <h4 class="titulos text-center">CONTACTO</h4>
+            </div>
+          </div>
+          <form>
+          <div class="row mt-5">        
+              <div class="col-lg-6 mb-3">
+                <span class="text-light">Nombre</span>
+                <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+              </div>
+              <div class="col-lg-6 mb-3">
+                <span class="text-light">Asunto</span>
+                <input type="text" class="form-control" id="asunto" aria-describedby="asunto">
+              </div>
+            </div>
+            <div class="row mb-5">  
+              <div class="col-lg-12 mb-3">
+                <span class="text-light">Mensaje</span>
+                <textarea class="form-control" aria-label="textarea"></textarea>
+              </div>
+              <div class="col-lg-2 mb-3">
+              <button type="submit" class="btn btn-info">Enviar</button>
+            </div>
+            
+          </div></form>
         </section>
       </main>
-    <section id="c_v">  
+      <footer class="d-flex bg-info">
+        <p>texto</p>
+      </footer> 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
