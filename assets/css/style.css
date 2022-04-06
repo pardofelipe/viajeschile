@@ -19,13 +19,11 @@ ul {list-style-type: none;padding-left: 0;line-height: 30px;}
 .cuerpo{font-family: 'Cabin', sans-serif; font-weight:300}
 .ubicacion{font-weight:300; font-size:.8em !important;display: flex;flex-wrap: inherit;align-items: center;justify-content: space-between;}
 .carousel {z-index:1;top:0;margin-top: -80px;}
-.carousel-indicators {left: 0;top: auto; margin-bottom: -40px;}
-.carousel-indicators li {background: #373A3C31;border-radius: 50%;width: 12px;margin: 3px;height: 12px;}
-.carousel-indicators .active {background: #373A3C}
-.linea{opacity:0;}
 
 
 @media only screen and (max-width: 767px) {
-    #carousel{display:none;}
-    .linea{opacity:1;}
+    #somos{display:none;}
+    #quienes-somos{display:none;}
+    .navbar-collapse{opacity: 0.85;padding-left: 32px;background: #43C6AC; background: -webkit-linear-gradient(to left, #191654, #43C6AC);  background: linear-gradient(to left, #191654, #43C6AC);}
+
 }
